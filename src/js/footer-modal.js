@@ -1,11 +1,12 @@
 const refs = {
-  openFooterModal: document.querySelector('[data-action="open-lightbox"]'),
+  // document.querySelector('button[data-action="save"]');
+  openFooterModal: document.querySelector('span[data-action="open-lightbox"]'),
   closeFooterModal: document.querySelector('[data-action="close-lightbox"]'),
   lightboxFooterModal: document.querySelector('.js-lightbox'),
   backdropClick: document.querySelector('.lightbox'),
   body: document.querySelector('body'),
 };
-
+console.log(refs)
 //------------------відкриття модалки--------------------------
 refs.openFooterModal.addEventListener('click', onOpenModal);
 

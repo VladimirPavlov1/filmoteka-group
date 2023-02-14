@@ -70,10 +70,10 @@ export default function renderList(films) {
   });
 }
 
-// function markupPopular() {
-//   fetchPopular()
-//     .then((films) => renderList(films))
-//     .catch((error) => console.log(error));
-// }
+function markupPopular() {
+  fetchPopular()
+    .then((films) => renderList(films))
+    .catch((error) => console.log(error));
+}
 
-// markupPopular();
+markupPopular();
