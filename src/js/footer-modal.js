@@ -6,7 +6,7 @@ const refs = {
   backdropClick: document.querySelector('.lightbox'),
   body: document.querySelector('body'),
 };
-console.log(refs)
+
 //------------------відкриття модалки--------------------------
 refs.openFooterModal.addEventListener('click', onOpenModal);
 

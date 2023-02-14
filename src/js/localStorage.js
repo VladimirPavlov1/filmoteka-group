@@ -14,7 +14,7 @@ function onModalButtonsW(e) {
   console.log(e.target.dataset.info);
 
   let saveWatch = localStorage.getItem('watch');
-  console.log(saveWatch);
+
   if (saveWatch) {
     saveWatch = JSON.parse(saveWatch);
   } else {
@@ -36,10 +36,10 @@ function onModalButtonsW(e) {
 
 function onModalButtonsQ(e) {
   const film = JSON.parse(e.target.dataset.info);
-  console.log(e);
+  
 
   let saveQueue = localStorage.getItem('queue');
-  console.log(saveQueue);
+
   if (saveQueue) {
     saveQueue = JSON.parse(saveQueue);
   } else {
